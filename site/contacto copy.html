@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Inicio</title>
+        <meta charset="utf-8">
+        <meta name = "format-detection" content = "telephone=no" />
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />   
+<title>Contacto</title>
+<link rel="stylesheet href=" href="css/contacto.css">
+<script type="text/javascript" src="js/jquery-1.7.min.js" ></script>
+<script type="text/javascript" src="js/forms.js"></script>
+
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+      
+              jQuery('#form1').forms({
+              ownerEmail:'#'
+              })
+       }); 
+</script>
+<head>
+    <body>
+        <form class="form"   action="https://formspree.io/f/xanejego"
+        method="POST" id="form1">
+           <div class="form_container">
+            <h2 class="form_container">Contactame</h2>
+            <input type="text" class="form_imput" placeholder="Nombre" name="name" value="Ingrese Nombre:">
+             <span class="error">*No es un Nombre valido.</span> <span class="empty">*Este campo es obligatorio.</span> </label><br>
+             <label class="form_imput"></label>
+            <input type="email" class="form_imput" placeholder="Email" name="email" value="Ingrese Email:">
+            <span class="error">*No es un Correo valido.</span> <span class="empty">*Este campo es obligatorio.</span> </label><br>
+            <label class="form_imput"></label>
+            <textarea class="form_imput form_imput-message" placeholder="Mensaje" name="message"></textarea>
+            <span class="error">*El mensaje es muy corto.</span> <span class="empty">*Este campo es obligatorio.</span> </label><br>
+            <br class="form_cta">
+            <input type="submit" value="Enviar" class="form_cta">
+            <div class="btns"><a href="#" class="button" data-type="reset">Clear</a><a href="#" class="button" data-type="submit">Submit</a></div>
+           
+          </div>
+          <a href="index.html" class="btn_regreso">Regresar </a>
+       
+         </form>
+       
+        </body>
+
+
+</head>
+

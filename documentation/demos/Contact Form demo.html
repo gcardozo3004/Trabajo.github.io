@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Form sample</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="../js/jquery-1.7.min.js" ></script>
+<script type="text/javascript" src="js/forms.js"></script>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/fonts.css" type="text/css" media="all">
+
+<script type="text/javascript">
+  	jQuery(document).ready(function(){
+		
+				jQuery('#form1').forms({
+				ownerEmail:'#'
+				})
+	 	}); 
+</script>
+</head>
+<body>
+<div id="main">
+<div class="inside">
+<h2>Formulario de Contacto</h2>
+          <div class="inner">
+		  	<div class="list-pad">
+				<form id="form1"    action="https://formspree.io/f/xjkyrjnl"
+				method="POST" id="form1">
+				  <div class="success"> Contact form submitted!<br>
+					<strong>Nos pondremos en contacto pronto.</strong> </div>
+				  <fieldset>
+					<label class="name">
+					  <input type="text" value="Enter Name:" name="name">
+					  <span class="error">*No es un Nombre vallido.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<label class="email">
+					  <input type="email" value="Enter Email:" name="email">
+					  <span class="error">*No es un Correo vallido.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<label class="state notRequired">
+					  <input type="text" value="Enter Your State:"Name="estado">
+					  <span class="error">*No es un Estado vallido.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<label class="phone">
+					  <input type="tel" value="Enter Phone:" name="telefono">
+					  <span class="error">*No es un Telefono vallido.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<label class="fax">
+					  <input type="tel" value="Enter Fax:" name="fax">
+					  <span class="error">*No es un Fax vallido.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<label class="message">
+					  <textarea name="message">Enter Message :</textarea>
+					  <span class="error">*El mensaje es muy corto.</span> <span class="empty">*Campo obligatorio.</span> </label><br>
+					<br class="clear">
+					<div class="btns"><a href="#" class="button" data-type="reset">Clear</a> </div>
+					<button  type="submit">Submit</button>
+				  </fieldset>
+				</form>
+			</div>	
+          </div>
+</div>
+</div>
+</body>
+</html>

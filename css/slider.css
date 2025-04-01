@@ -1,0 +1,170 @@
+* {
+	padding:0;
+	margin:0;
+}
+.slider-block {position:relative; height:488px;}
+.slider {
+	width:940px;
+	height:383px;
+	margin:0 0px 0 0px;
+	margin-top:0px;
+	overflow:visible !important;
+}
+.items {
+	display:none;
+}
+.prev span {background:url(../images/prev.png) 0 0 no-repeat; }
+.next span {background:url(../images/next.png) 0 0 no-repeat;float:right }
+
+.prev {left:0; border-radius:0 50px 50px 0; padding-left:7px}
+.next {right:0;border-radius:50px 0 0 50px;padding-right:7px;}
+.prev, .next {width:38px; height:61px; background:#FFF; padding-top:30px;position:absolute; top:145px;z-index:2;display:block;-moz-transition: all 0.5s ease;-webkit-transition: all 0.5s ease;-o-transition: all 0.5s ease;transition: all 0.5s ease;}
+.prev span, .next span {width:16px; height:31px;display:block;}
+.prev:hover span, .next:hover span{background-position:0 bottom;}
+.prev:hover, .next:hover {background-color:#ed008c;}
+
+.pagination { z-index:111;margin-right:14px; float:right;}
+.pagination li {display:block; margin:20px 0px 0 8px;width:99px; height:52px;float:left; position:relative;}
+.pagination li.last-1 {margin-right:0px}
+.pagination li:hover, .pagination li.current {position:relative}
+.pagination li:hover span, .pagination li.current span {border:3px solid #e7389f; position:absolute; width:93px; height:46px;}
+.pagination li.current {cursor:default}
+.pagination li.current a:hover {cursor:default; text-decoration:none;}
+
+.pagination li a {display:inline-block; width:99px; height:52px;}
+.pag {overflow:hidden; padding-bottom:33px;background:#000}
+.banner {
+	width:370px;
+	overflow:hidden;
+	position:absolute;
+	bottom:-73px !important;
+	left:30px !important;
+	z-index:15;
+	top:auto !important;
+	padding:0px;
+	color:#FFF;
+	height:55px;
+	background:url(../images/sep.png) no-repeat right;
+	padding-right:80px;
+	}
+.banner span {display:block; color:#ed008c; font-family:'Georgia'; font-size:14px;padding-bottom:3px}
+
+/*--------- slider ---------*/
+#slide { width:460px; height:538px; position:relative; overflow:visible;z-index:2;margin:0 auto;}
+.gallery {
+	width:460px;
+	position:relative;
+	z-index:2;
+	overflow:visible !important
+}
+.items {display:none;}
+
+.img-pags {position:static;z-index:1;display:block; width:460px !important; margin-top:116px}
+.img-pags .pagination {float:none}
+.img-pags ul {margin:0}
+.img-pags li {height:180px; width:160px;margin:0px}
+.img-pags li a {position:relative;display:block;}
+.img-pags li a img {opacity:.6;}
+.img-pags li a span{ display:block;}
+.img-pags li.active a,.img-pags li a:hover{}
+.img-pags li.active a img,.img-pags li a:hover img{ opacity:1;}
+a.next-1 span {
+	background:url(../images/next-1.png) no-repeat left top;
+}
+
+a.prev-1 span{
+	background:url(../images/prev-1.png) no-repeat left top;
+}
+a.prev-1 span,a.next-1 span {
+	display:block;
+	width:5px;
+	height:7px;
+	margin:10px 0 0 11px;
+	}
+a.prev-1 {right:32px;}
+a.next-1 {right:0px;}
+a.next-1, a.prev-1 {
+	width:27px;
+	height:27px;
+	padding:0;
+	display:inline-block;
+	z-index:15;
+	border-radius:0;
+	bottom:-28px;
+	position:absolute;
+	background:#000;
+	}
+a.next-1:hover, a.prev-1:hover {
+	background:#ed008c;
+	text-decoration:none;
+	}
+#slide .banner {
+	width:460px;
+	overflow:hidden;
+	position:absolute;
+	top:-5px !important;
+	left:480px !important;
+	z-index:15;
+	bottom:auto !important;
+	padding:0px;
+	color:#000000;
+	height:90px;
+	background:none;
+	padding-right:0px;
+	}
+/*-------- end slider -----------*/
+.slider-block-2 {position:relative; height:538px;}
+.slider-2 {
+	width:460px;
+	height:538px;
+	margin:0 0px 0 0px;
+	margin-top:0px;
+	overflow:visible !important;
+}
+.slider-block-2 .pagination { z-index:111;margin-right:0px;float:none; margin-top:255px }
+.slider-block-2 .pagination li {display:block; margin:0px;width:auto; height:auto;float:none; position:relative;padding:11px 0 10px; border-bottom:1px dotted #b8b8b8}
+.slider-block-2 .pagination li a:hover, .pagination li.current a {position:relative; color:#7B7B7B; text-decoration:none;}
+.slider-block-2 .pagination li.current a {cursor:default;color:#7B7B7B}
+
+
+.slider-block-2 .pagination li.current a:hover {cursor:default;color:#7B7B7B;text-decoration:none;}
+
+.slider-block-2 .pagination li a {display:inline-block; width:auto; height:auto; font-size:18px; font-family:Georgia; color:#ed008c;line-height:23px}
+.slider-block-2 .banner {
+	width:440px;
+	overflow:hidden;
+	position:absolute;
+	top:-5px !important;
+	left:480px !important;
+	z-index:15;
+	bottom:auto !important;
+	padding:0px;
+	color:#000000;
+	height:240px;
+	background:none;
+	padding-right:0px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
